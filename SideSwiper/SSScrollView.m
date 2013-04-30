@@ -7,6 +7,7 @@
 //
 
 #import "SSScrollView.h"
+#import "SSTransparentView.h"
 
 @implementation SSScrollView
 
@@ -19,13 +20,22 @@
     return self;
 }
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect
+-(BOOL)pointInside:(CGPoint)point withEvent:(UIEvent *)event
 {
-    // Drawing code
+    if (self.dragging )
+        return YES;
+    
+    // Get the width of the transparent view if it exists.
+    int width = 0;
+    for ( UIView *aView in self.subviews ) {
+        if ( [aView isKindOfClass:[SSTransparentView class]]) {
+            width = aView.frame.size.width;
+        }
+    }
+
+    if ( self.contentOffset.x == 0 && point.x < width)
+        return NO;
+    return YES;
 }
-*/
 
 @end

@@ -14,6 +14,14 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    SSHomeViewController *_home = [[SSHomeViewController alloc] initWithNibName:@"SSHomeViewController" bundle:nil];
+    
+    SSLeftViewController *_left = [[SSLeftViewController alloc] initWithStyle:UITableViewStylePlain];
+    
+    SSSwipeViewController *_homeController = [[SSSwipeViewController alloc] initWithMain:_home andLeft:_left];
+    
+    self.window.rootViewController = _homeController;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

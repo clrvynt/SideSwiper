@@ -9,5 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface SSNavigationController : UINavigationController
+{
+    UIBarButtonItem *_leftBarButtonItem;
+    SEL listSelector;
+    id _target;
+}
+
+-(id)initWithListSelector:(SEL)selector andTarget:(id)target;
+-(void)setRootController:(UIViewController *)controller;
 
 @end

@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 kalyankrishnamurthi. All rights reserved.
 //
 
-#import "SSScrollView.h"
+#import "SSTransparentView.h"
 
-@implementation SSScrollView
+@implementation SSTransparentView
 
 - (id)initWithFrame:(CGRect)frame
 {
@@ -19,13 +19,9 @@
     return self;
 }
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect
+-(BOOL)pointInside:(CGPoint)point withEvent:(UIEvent *)event
 {
-    // Drawing code
+    return NO;
 }
-*/
 
 @end

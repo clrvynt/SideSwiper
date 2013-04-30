@@ -1,5 +1,5 @@
 //
-//  SSScrollView.h
+//  SSHomeViewController.h
 //  SideSwiper
 //
 //  Created by kalyankrishnamurthi on 4/30/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SSTransparentView : UIView
+@interface SSHomeViewController : UIViewController
 
 @end

@@ -1,18 +1,18 @@
 //
-//  SSProfileViewController.m
+//  SSHomeViewController.m
 //  SideSwiper
 //
 //  Created by kalyankrishnamurthi on 4/30/13.
 //  Copyright (c) 2013 kalyankrishnamurthi. All rights reserved.
 //
 
-#import "SSProfileViewController.h"
+#import "SSHomeViewController.h"
 
-@interface SSProfileViewController ()
+@interface SSHomeViewController ()
 
 @end
 
-@implementation SSProfileViewController
+@implementation SSHomeViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -28,7 +28,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-    self.navigationItem.title = @"Profile";
+    self.navigationItem.title = @"Hello World";
+    
 }
 
 - (void)didReceiveMemoryWarning

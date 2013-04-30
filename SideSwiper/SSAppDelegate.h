@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SSSwipeViewController.h"
+#import "SSHomeViewController.h"
+#import "SSLeftViewController.h"
 
 @interface SSAppDelegate : UIResponder <UIApplicationDelegate>
 

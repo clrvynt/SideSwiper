@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2608B44C173042AA0078C1AD /* SSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2608B44B173042AA0078C1AD /* SSNavigationController.m */; };
+		2608B44F173052550078C1AD /* SSTransparentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2608B44E173052550078C1AD /* SSTransparentView.m */; };
+		2608B45217305A8C0078C1AD /* SSScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2608B45117305A8C0078C1AD /* SSScrollView.m */; };
+		2608B45617305ED50078C1AD /* SSProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2608B45417305ED40078C1AD /* SSProfileViewController.m */; };
+		2608B45717305ED50078C1AD /* SSProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2608B45517305ED50078C1AD /* SSProfileViewController.xib */; };
 		2659063317302183008230DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2659063217302183008230DE /* UIKit.framework */; };
 		2659063517302183008230DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2659063417302183008230DE /* Foundation.framework */; };
 		2659063717302183008230DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2659063617302183008230DE /* CoreGraphics.framework */; };
@@ -16,9 +21,24 @@
 		2659064517302183008230DE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2659064417302183008230DE /* Default.png */; };
 		2659064717302183008230DE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2659064617302183008230DE /* Default@2x.png */; };
 		2659064917302183008230DE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2659064817302183008230DE /* Default-568h@2x.png */; };
+		26590652173021A5008230DE /* SSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26590650173021A5008230DE /* SSHomeViewController.m */; };
+		26590653173021A5008230DE /* SSHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26590651173021A5008230DE /* SSHomeViewController.xib */; };
+		26590655173021EE008230DE /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = 26590654173021EE008230DE /* list.png */; };
+		265906591730233C008230DE /* SSLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 265906571730233C008230DE /* SSLeftViewController.m */; };
+		2659065A1730233C008230DE /* SSLeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 265906581730233C008230DE /* SSLeftViewController.xib */; };
+		2659065D173023FF008230DE /* SSSwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2659065C173023FF008230DE /* SSSwipeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2608B44A173042A90078C1AD /* SSNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSNavigationController.h; sourceTree = "<group>"; };
+		2608B44B173042AA0078C1AD /* SSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSNavigationController.m; sourceTree = "<group>"; };
+		2608B44D173052550078C1AD /* SSTransparentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTransparentView.h; sourceTree = "<group>"; };
+		2608B44E173052550078C1AD /* SSTransparentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTransparentView.m; sourceTree = "<group>"; };
+		2608B45017305A8C0078C1AD /* SSScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSScrollView.h; sourceTree = "<group>"; };
+		2608B45117305A8C0078C1AD /* SSScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSScrollView.m; sourceTree = "<group>"; };
+		2608B45317305ED40078C1AD /* SSProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSProfileViewController.h; sourceTree = "<group>"; };
+		2608B45417305ED40078C1AD /* SSProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSProfileViewController.m; sourceTree = "<group>"; };
+		2608B45517305ED50078C1AD /* SSProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSProfileViewController.xib; sourceTree = "<group>"; };
 		2659062F17302183008230DE /* SideSwiper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideSwiper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2659063217302183008230DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2659063417302183008230DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,6 +52,15 @@
 		2659064417302183008230DE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		2659064617302183008230DE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		2659064817302183008230DE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2659064F173021A5008230DE /* SSHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSHomeViewController.h; sourceTree = "<group>"; };
+		26590650173021A5008230DE /* SSHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSHomeViewController.m; sourceTree = "<group>"; };
+		26590651173021A5008230DE /* SSHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSHomeViewController.xib; sourceTree = "<group>"; };
+		26590654173021EE008230DE /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
+		265906561730233C008230DE /* SSLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLeftViewController.h; sourceTree = "<group>"; };
+		265906571730233C008230DE /* SSLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSLeftViewController.m; sourceTree = "<group>"; };
+		265906581730233C008230DE /* SSLeftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSLeftViewController.xib; sourceTree = "<group>"; };
+		2659065B173023FF008230DE /* SSSwipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSSwipeViewController.h; sourceTree = "<group>"; };
+		2659065C173023FF008230DE /* SSSwipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSSwipeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +109,24 @@
 			children = (
 				2659064117302183008230DE /* SSAppDelegate.h */,
 				2659064217302183008230DE /* SSAppDelegate.m */,
+				2659064F173021A5008230DE /* SSHomeViewController.h */,
+				26590650173021A5008230DE /* SSHomeViewController.m */,
+				26590651173021A5008230DE /* SSHomeViewController.xib */,
+				265906561730233C008230DE /* SSLeftViewController.h */,
+				265906571730233C008230DE /* SSLeftViewController.m */,
+				265906581730233C008230DE /* SSLeftViewController.xib */,
 				2659063917302183008230DE /* Supporting Files */,
+				2659065B173023FF008230DE /* SSSwipeViewController.h */,
+				2659065C173023FF008230DE /* SSSwipeViewController.m */,
+				2608B44A173042A90078C1AD /* SSNavigationController.h */,
+				2608B44B173042AA0078C1AD /* SSNavigationController.m */,
+				2608B44D173052550078C1AD /* SSTransparentView.h */,
+				2608B44E173052550078C1AD /* SSTransparentView.m */,
+				2608B45017305A8C0078C1AD /* SSScrollView.h */,
+				2608B45117305A8C0078C1AD /* SSScrollView.m */,
+				2608B45317305ED40078C1AD /* SSProfileViewController.h */,
+				2608B45417305ED40078C1AD /* SSProfileViewController.m */,
+				2608B45517305ED50078C1AD /* SSProfileViewController.xib */,
 			);
 			path = SideSwiper;
 			sourceTree = "<group>";
@@ -88,6 +134,7 @@
 		2659063917302183008230DE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				26590654173021EE008230DE /* list.png */,
 				2659063A17302183008230DE /* SideSwiper-Info.plist */,
 				2659063B17302183008230DE /* InfoPlist.strings */,
 				2659063E17302183008230DE /* main.m */,
@@ -155,6 +202,10 @@
 				2659064517302183008230DE /* Default.png in Resources */,
 				2659064717302183008230DE /* Default@2x.png in Resources */,
 				2659064917302183008230DE /* Default-568h@2x.png in Resources */,
+				26590653173021A5008230DE /* SSHomeViewController.xib in Resources */,
+				26590655173021EE008230DE /* list.png in Resources */,
+				2659065A1730233C008230DE /* SSLeftViewController.xib in Resources */,
+				2608B45717305ED50078C1AD /* SSProfileViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +218,13 @@
 			files = (
 				2659063F17302183008230DE /* main.m in Sources */,
 				2659064317302183008230DE /* SSAppDelegate.m in Sources */,
+				26590652173021A5008230DE /* SSHomeViewController.m in Sources */,
+				265906591730233C008230DE /* SSLeftViewController.m in Sources */,
+				2659065D173023FF008230DE /* SSSwipeViewController.m in Sources */,
+				2608B44C173042AA0078C1AD /* SSNavigationController.m in Sources */,
+				2608B44F173052550078C1AD /* SSTransparentView.m in Sources */,
+				2608B45217305A8C0078C1AD /* SSScrollView.m in Sources */,
+				2608B45617305ED50078C1AD /* SSProfileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +341,7 @@
 				2659064E17302183008230DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
