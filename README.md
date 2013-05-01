@@ -12,4 +12,4 @@ The code implements the following functionality --
 3. Adds a delegate on the left view controller to pass messages back to the SSSwipeViewController.
 4. Subclasses UINavigationController, UIScrollView and UIView to achieve the desired effect.
 
-Take a look at my blog for more details.
+Take a look at my blog for more details -- http://runkalrun.blogspot.com/2013/04/side-swipe-menu-on-iphone.html
