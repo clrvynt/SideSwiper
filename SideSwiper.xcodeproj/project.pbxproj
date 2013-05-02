@@ -174,7 +174,7 @@
 			attributes = {
 				CLASSPREFIX = SS;
 				LastUpgradeCheck = 0460;
-				ORGANIZATIONNAME = kalyankrishnamurthi;
+				ORGANIZATIONNAME = clrvynt;
 			};
 			buildConfigurationList = 2659062A17302183008230DE /* Build configuration list for PBXProject "SideSwiper" */;
 			compatibilityVersion = "Xcode 3.2";
